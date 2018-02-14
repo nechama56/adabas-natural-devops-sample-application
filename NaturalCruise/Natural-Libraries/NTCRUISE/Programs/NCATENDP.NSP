@@ -14,7 +14,7 @@
 /** :author Training
 /* TODO Enter your code here
 DEFINE DATA LOCAL
-  USING NCDEMAPL
+  USING NCDEMAPL  
 LOCAL
 1 #REC-COUNT (N5)
 1 #LINE-INFO (A100)
