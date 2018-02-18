@@ -12,9 +12,9 @@
 /**         <li>*PAGE-NUMBER</li>
 /**     </ul>
 /** :author Training
-/* TODO Enter your code here
+/* TODO Enter your code here  
 DEFINE DATA LOCAL
-  USING NCDEMAPL
+  USING NCDEMAPL  
 LOCAL
 1 #REC-COUNT (N5)
 1 #LINE-INFO (A100)
@@ -28,7 +28,7 @@ AT TOP OF PAGE
   WRITE NOTITLE NOHDR #LINE-INFO
 END-TOPPAGE
 AT END OF PAGE
-  COMPRESS '----- Cruise Records displayed:'#REC-COUNT
+  COMPRESS '  test nechama----- Cruise Records displayed:'#REC-COUNT
     INTO #LINE-INFO
   WRITE NOTITLE NOHDR #LINE-INFO
 END-ENDPAGE
